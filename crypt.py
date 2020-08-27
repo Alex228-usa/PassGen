@@ -21,7 +21,7 @@ class PassGen:
 
     def question(self, target):
         answers = {}
-        print("HELLO SHELDON :D.\n\n")
+        print("HELLO BRO :D.\n\n")
         answers['firstname'] = self.prompt('Введите имя {}: '.format(target))
         answers['lastname'] = self.prompt('Введите фамилию {}: '.format(target))
         answers['nickname'] = self.prompt('Введите никнейм {}: '.format(target))
